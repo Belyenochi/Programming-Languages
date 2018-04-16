@@ -1,0 +1,42 @@
+[31mPharo cannot write to the changes file named C:\programInstall\Pharo6.1\Pharo6.1.changes.
+
+Please check that you have write permission for this file.
+
+You won't be able to save this image correctly until you fix this.
+[0mStartupUIManager>>inform:
+PharoFilesOpener(Object)>>inform:
+PharoFilesOpener>>inform:withRef:
+PharoFilesOpener>>inform:withChangesRef:
+PharoFilesOpener>>informProblemInChanges:
+PharoFilesOpener>>changesFileOrNil
+SourceFileArray>>ensureOpen
+SmalltalkImage>>openSourceFiles
+SmalltalkImage class>>startUp:
+ClassSessionHandler>>startup:
+[ :arg2 | arg2 startup: arg1 ] in WorkingSession>>runStartup: in Block: [ :arg2 | arg2 startup: arg1 ]
+[ arg2 value: arg3 ] in [ :arg3 | 
+[ arg2 value: arg3 ]
+	on: Exception
+	do: [ :arg4 | self errorHandler handleError: arg4 ] ] in WorkingSession>>runList:do: in Block: [ arg2 value: arg3 ]
+BlockClosure>>on:do:
+[ :arg3 | 
+[ arg2 value: arg3 ]
+	on: Exception
+	do: [ :arg4 | self errorHandler handleError: arg4 ] ] in WorkingSession>>runList:do: in Block: [ :arg3 | ...
+Array(SequenceableCollection)>>do:
+WorkingSession>>runList:do:
+WorkingSession>>runStartup:
+WorkingSession>>start:
+SessionManager>>snapshot:andQuit:
+[ ^ SessionManager default snapshot: arg1 andQuit: arg2 ] in SmalltalkImage>>snapshot:andQuit: in Block: [ ^ SessionManager default snapshot: arg1 andQuit:...etc...
+CurrentExecutionEnvironment class>>activate:for:
+DefaultExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment class>>beActiveDuring:
+SmalltalkImage>>snapshot:andQuit:
+ImageCleanerCommandLineHandler>>activate
+ImageCleanerCommandLineHandler class(CommandLineHandler class)>>activateWith:
+[ arg1 activateWith: commandLine ] in PharoCommandLineHandler(BasicCommandLineHandler)>>activateSubCommand: in Block: [ arg1 activateWith: commandLine ]
+BlockClosure>>on:do:
+PharoCommandLineHandler(BasicCommandLineHandler)>>activateSubCommand:
+PharoCommandLineHandler(BasicCommandLineHandler)>>handleSubcommand
+[0m

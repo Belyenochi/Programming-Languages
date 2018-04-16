@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PetitParser2-RewriteEngine-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collection",
+		"start",
+		"stop",
+		"parent",
+		"testBlock",
+		"name"
+	],
+	"name" : "PP2PatternToken",
+	"type" : "normal"
+}

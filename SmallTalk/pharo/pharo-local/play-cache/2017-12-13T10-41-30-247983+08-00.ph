@@ -1,0 +1,1 @@
+	| iRMethod aCompiledMethod |	iRMethod := IRBuilder new		pushLiteral: 'hello'; 			returnTop;		ir.aCompiledMethod := iRMethod compiledMethod. 

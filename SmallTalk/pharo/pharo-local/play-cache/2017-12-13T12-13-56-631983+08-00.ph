@@ -1,0 +1,1 @@
+Number>>#asInteger .Integer>>#timesRepeat: . [^ 1<2 ifTrue: [true]].GTBytecodeBrowser new openOn: (Morph>>#drawOn:) 

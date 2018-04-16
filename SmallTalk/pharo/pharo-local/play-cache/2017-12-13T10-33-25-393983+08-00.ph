@@ -1,0 +1,1 @@
+5 factorial.3 + 4.'hi', 'there'.Transcript show: 'hello'.2 raisedTo: 5.'hello' at:2 put:$y.3.7 asInteger. 5 timesRepeat: [ Transcript show: 'hello'].

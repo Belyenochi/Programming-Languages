@@ -1,0 +1,1 @@
+Metacello new    baseline: 'PetitParser2';    repository: 'github://kursjan/petitparser2';    load: 'Headless'.

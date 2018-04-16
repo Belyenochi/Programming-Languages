@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "PP2CompositeNode",
+	"category" : "PetitParser2-GUI-Tests-Refactoring",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refactoring",
+		"primary",
+		"addition",
+		"terms"
+	],
+	"name" : "PP2GrammarRefactoringStubParser",
+	"type" : "normal"
+}

@@ -1,0 +1,35 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+  - osx
+
+# Select compatible Smalltalk image(s)
+smalltalk:
+  - Pharo-alpha
+  - Pharo-stable
+  - Pharo-6.0
+  - Pharo-5.0
+#  - Moose-trunk
+#  - Moose-6.1
+#
+
+smalltalk_config:
+  - .smalltalk.ston
+  - .headless.ston
+  - .rewrite.ston
+
+matrix:
+  include:
+    - smalltalk: Pharo-stable
+      smalltalk_config: .headless.ston
+    - smalltalk: Pharo-6.0
+      smalltalk_config: .headless.ston
+    - smalltalk: Pharo-5.0
+      smalltalk_config: .headless.ston
+    - smalltalk: Pharo-stable
+      smalltalk_config: .rewrite.ston
+  allow_failures:
+   - smalltalk: Pharo-alpha

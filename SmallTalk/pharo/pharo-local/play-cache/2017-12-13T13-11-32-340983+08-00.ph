@@ -1,0 +1,1 @@
+|count|count := 0.SystemNavigation default allObjectsDo:[:anObject | count := count + 1].count.SystemNavigation.Smalltalk vm statisticsReport.   EyePointerExplorer openOn: #IRBuilder.

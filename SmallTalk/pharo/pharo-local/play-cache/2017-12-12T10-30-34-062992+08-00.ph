@@ -1,0 +1,1 @@
+PP2CompositeNode subclass: #WebGrammar	instanceVariableNames: 'document javascript elOpen elContent elClose elementName element text jsOpen jsContent jsClose jsString structuredDocument comment any'	classVariableNames: ''	poolDictionaries: ''	category: 'PetitParser2-Tutorial'
